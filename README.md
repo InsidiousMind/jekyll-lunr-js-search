@@ -1,5 +1,13 @@
 # [Jekyll](http://jekyllrb.com/) + [lunr.js](http://lunrjs.com/) = Static websites with powerful full-text search using JavaScript
 
+This Fork Contains a Fix for a Nesting Error I got while using LunrJS with Jekyll 3.0
+---
+To Install in a Gemfile with Bundler put this in the Gemfile 
+gem 'jekyll-lunr-js-search', :git => "https://github.com/InsidiousMind/jekyll-lunr-js-search.git"
+
+then run 'Bundle Install'
+
+That is all! Hope this helps some peeps
 Use [lunr.js](http://lunrjs.com/) to provide simple full-text search, using JavaScript in your browser, for your Jekyll static website.
 
 Inspired by Pascal Widdershoven's [Jekyll + indextank](https://github.com/PascalW/jekyll_indextank) and Michael Levin's [Sitemap.xml Generator](https://github.com/kinnetica/jekyll-plugins) plugins.
