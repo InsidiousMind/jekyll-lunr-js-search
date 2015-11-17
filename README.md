@@ -2,9 +2,11 @@
 
 This Fork Contains a Fix for a Nesting Error I got while using LunrJS with Jekyll 3.0
 ---
-To Install in a Gemfile with Bundler put this in the Gemfile 
+To Install in a Gemfile with Bundler put this in the Gemfile :
 
-  gem 'jekyll-lunr-js-search', :git => "https://github.com/InsidiousMind/jekyll-lunr-js-search.git"
+```
+gem 'jekyll-lunr-js-search', :git => "https://github.com/InsidiousMind/jekyll-lunr-js-search.git"
+```
 
 then run 'Bundle Install'
 
